@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>element-starter</title>
+</head>
+
+<body>
+    <div id="app">1213231231</div>
+</body>
+
+<script>
+    var b = {}
+    var c = new Array()
+
+
+    var cc = function (){
+    }
+
+
+    function Foo(){
+        Foo.prototype.saygoobay = function(){
+            var qqq = 1212
+        }
+    };
+    var f1 = new Foo;
+
+
+
+    var tt6 = function Boo(){
+        Boo.prototype.saybay = function(){
+        var qqq = 1212
+    }
+    };
+
+
+    Array.prototype.myUcase=function()
+{
+    for (i=0;i<this.length;i++)
+    {
+        this[i]=this[i].toUpperCase();
+    }
+}
+
+
+    console.dir(c)
+    console.dir(cc)
+
+    console.dir(tt6)
+
+    console.log('---------------------------')
+    console.log('f1 =>',f1)
+    console.log('实例化后的f1是',typeof f1) // object
+    console.log('---------------------------')
+
+    var a =function tete(){
+        return console.log(11)
+    }
+
+    console.dir(b)
+
+    function teet(){
+        // arguments.callee
+        console.log(arguments)
+    }
+
+    teet()
+</script>
+
+</html>
